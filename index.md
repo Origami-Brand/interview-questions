@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# interview-questions
 
-You can use the [editor on GitHub](https://github.com/Origami-Brand/interview-questions/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Task      
+Make a GET request from the following  API endpoint and populate the 3 fields on a webpage  (name, height, birth_year).   
+  
+API Endpoint - https://swapi.dev/api/people. 
+  
+Read more about this API here - https://swapi.dev/    
+  
+***Use any programming language of your choice.***  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  
+The output should look something like this -  
+https://interviewtasks.fabricprojects.co.nz/ 
 
-### Markdown
+# Question 
+  
+If you have to change the web-hosting of a website and migrate it to a new server, which of the following DNS records you would change and why?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is the snippet of the current DNS zone file pointing to the old server -
 
-```markdown
-Syntax highlighted code block
+| Type of record | Name | Value/IP address     |
+|----------------|------|----------------------|
+| A              | @    | 44.33.22.11          |
+| A              | www  | 44.33.22.11          |
+| MX             | @    | mx1.someemail.co.nz  |
+| MX             | @    | mx2.someemail.co.nz  |
+| NS             |      | ns1.oldhosting.co.nz |
+| NS             |      | ns2.oldhosting.co.nz |
 
-# Header 1
-## Header 2
-### Header 3
+These are some of the details of a new server.     
 
-- Bulleted
-- List
+Public IP address - 11.22.33.44 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Origami-Brand/interview-questions/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Name server records  - ns1.newhosting.co.nz  & ns2.newhosting.co.nz 
