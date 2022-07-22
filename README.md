@@ -15,7 +15,7 @@ https://interviewtasks.fabricprojects.co.nz/
 
 # Question 
   
-If you have to change the web-hosting of a website and migrate it to a new server, which of the following DNS records you would change and why?
+If you have to change the web-hosting of a website and migrate it to a new server, which of the following DNS records would you change and why?
 
 This is the snippet of the current DNS zone file pointing to the old server -
 
