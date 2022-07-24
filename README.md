@@ -32,4 +32,6 @@ These are some of the details of a new server.
 
 Public IP address - 11.22.33.44 
 
-Name server records  - ns1.newhosting.co.nz  & ns2.newhosting.co.nz 
+Name server records    
+ns1.newhosting.co.nz     
+ns2.newhosting.co.nz   
